@@ -1,231 +1,245 @@
 <!DOCTYPE html>
 <html>
-<! ψιτ! 'ει! βρήκες έναν μυστικό κωδικό για να δώσεις στους ανθρώπους που φτιάχνουν το Satsuma σου για να το ρυθμίσοθν. Ο κώδικος είναι: H482K</!>
-<head> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PistonPals - Σέρβις Αυτοκινήτων</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #1e1e1e;
-      color: #ffffff;
-      margin: 0;
-      padding: 0;
-    }
+<! ψστ. γεια. Βρήκατε έναν μυστικό κωδικό για να δώσετε στο άτομο που θα επισκευάσει το satsuma σας για να το συντονίσει. Ο κωδικός είναι H482K. </!>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PistonPals - Υπηρεσία MSC</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #1e1e1e;
+color: #ffffff;
+margin: 0;
+padding: 0;
+}
 
-    header {
-      background-image: url(""https://staticdelivery.nexusmods.com/mods/2600/images/4869/4869-1708465593-1452366698.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      padding: 40px 25px;
-      text-align: center;
-      color: white;
-    }
+κεφαλίδα {
+εικόνα-φόντου: url("https://staticdelivery.nexusmods.com/mods/2600/images/4869/4869-1708465593-1452366698.png");
+μέγεθος-φόντου: εξώφυλλο;
+θέση-φόντου: κέντρο;
+επανάληψη-φόντου: χωρίς-επανάληψη;
+επέκταση: 40px 25px;
+στοίχιση-κειμένου: κέντρο;
+χρώμα: λευκό;
+}
 
-     header h1,
-      header p {
-        color: white;
-        text-shadow: 1px 1px 4px black;
-      }
+κεφαλίδα h1,
+κεφαλίδα p {
+χρώμα: λευκό;
+σκιά-κειμένου: 1px 1px 4px μαύρο;
+}
 
-    h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
+h1 {
+περιθώριο: 0;
+μέγεθος-γραμμής: 2.5em;
+}
 
-    main {
-      display: grid;
-      grid-template-areas:
-        "title title"
-        "info repairs"
-        "info repairs"
-        "buttons buttons"
-        "footer footer";
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      padding: 30px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
+κύρια {
+οθόνη: πλέγμα;
+Περιοχές-προτύπου-πλέγματος:
+"τίτλος τίτλος"
+"επισκευές πληροφοριών"
+"επισκευές πληροφοριών"
+"κουμπιά κουμπιά"
+"υποσέλιδο υποσέλιδου";
+στήλες-προτύπου-πλέγματος: 1fr 1fr;
+κενό: 20px;
+συμπλήρωση: 30px 20px;
+μέγιστο πλάτος: 1000px;
+περιθώριο: αυτόματο;
+}
 
-    .title {
-      grid-area: title;
-      text-align: center;
-    }
+.title {
+περιοχή-πλέγματος: τίτλος;
+στοίχιση-κειμένου: κέντρο;
+}
 
-    .info {
-      grid-area: info;
-    }
+.info {
+περιοχή-πλέγματος: πληροφορίες;
+}
 
-    .repairs {
-      grid-area: repairs;
-    }
+.repairs {
+περιοχή-πλέγματος: επισκευές;
+}
 
-    .buttons {
-      grid-area: buttons;
-      text-align: center;
-    }
+.buttons {
+περιοχή-πλέγματος: κουμπιά;
+στοίχιση-κειμένου: κέντρο;
+}
 
-    .buttons a {
-      display: inline-block;
-      margin: 10px;
-      padding: 15px 25px;
-      background-color: #1414B8;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      transition: background-color 0.3s ease;
-    }
+.buttons a {
+εμφάνιση: ενσωματωμένο μπλοκ;
+περιθώριο: 10px;
+συμπλήρωση: 15px 25px;
+χρώμα-φόντου: #1414B8;
+χρώμα: λευκό;
+διακόσμηση-κειμένου: κανένα;
+ακτίνα-περιθωρίου: 10px;
+μετάβαση: χρώμα-φόντου 0.3s ευκολία;
+}
 
-    .buttons a:hover {
-      background-color: #050554;
-    }
+.buttons a:hover {
+χρώμα-φόντου: #050554;
+}
 
-    .repairs-list li {
-      margin-bottom: 0.5rem;
-    }
+.repairs-list li {
+κάτω-περιθώριο: 0.5rem;
+}
 
-    footer {
-      grid-area: footer;
-      margin-top: 50px;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #aaaaaa;
-      background-color: #282828;
-      text-align: center;
-    }
+υποσέλιδο {
+περιοχή-πλέγματος: υποσέλιδο;
+πάνω-περιθώριο: 50px;
+συμπλήρωση: 20px;
+μέγεθος-γραμμής: 0.9em;
+χρώμα: #aaaaaa;
+χρώμα-φόντου: #282828;
+στοίχιση-κειμένου: κέντρο;
+}
 
-    .info-tab {
-      margin-top: 40px;
-      padding: 15px;
-      border: 1px solid #444;
-      border-radius: 8px;
-      background-color: #2a2a2a;
-    }
+.info-tab {
+πάνω-περιθώριο: 40px;
+συμπλήρωση: 15px;
+περίγραμμα: 1px συμπαγές #444;
+ακτίνα-περιθωρίου: 8px;
+χρώμα-φόντου: #2a2a2a;
+}
 
-    @media (max-width: 768px) {
-      main {
-        grid-template-areas:
-          "title"
-          "info"
-          "repairs"
-          "buttons"
-          "footer";
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+@media (μέγιστο πλάτος: 768px) {
+main {
+grid-template-areas:
+"τίτλος"
+"πληροφορίες"
+"επισκευές"
+"κουμπιά"
+"υποσέλιδο";
+grid-template-columns: 1fr;
+}
+}
+</style>
 </head>
 <body>
-  <div style="text-align: right; padding: 1rem; font-size: 0.9rem;">
-    <a href="https://piston-pals.vercel.app">🇬🇧 English</a> |
-    <a href="https://pistonpals-gr.vercel.app">🇬🇷 <strong>Ελληνικά</strong> </a> |
-    <a href="https://pistonpals-bg.vercel.app">🇧🇬 Български></a>
-  </div>
+<div style="text-align: right; padding: 1rem; font-size: 0.9rem;">
+<a href="https://piston-pals.vercel.app">🇬🇧 <strong>Αγγλικά</strong> </a> |
+<a href="https://pistonpals-gr.vercel.app">🇬🇷 Ελληνικά</a> |
+<a href="https://pistonpals-bg.vercel.app">🇧🇬 Български </a>
+</div>
 
-  <header>
-    <h1>PistonPals.net</h1>
-    <p>Η στάση σας για επισκευές Satsuma</p>
-  </header>
+<header>
+<h1>PistonPals.net</h1>
+<p>Το σημείο εκκίνησης για επισκευές Satsuma</p>
+</header>
 
-  <main>
-    <section class="title">
-      <h2>Χρειάζεστε επισκευή;</h2>
-      <p>Ανεβάστε την έκπτωσή σας από το My Summer Car παρακάτω στη σελίδα.</p>
-    </section>
-
-    <section class="info">
-      <h3>Σχετικά με το PistonPals</h3>
-      <p>Είμαστε ένα έργο που δημιουργήθηκε από έναν θαυμαστή του My Summer Car. Στόχος αυτού του έργου είναι να επισκευάσει τα Satsuma των ανθρώπων στο <strong>My Summer Car</strong>. Είτε το Satsuma σας είναι χαλασμένο, είτε έχει κυριευτεί από μαύρη μαγεία, θα το εξετάσουμε και θα το επισκευάσουμε.</p>
-      <h3>Πώς λειτουργεί</h3>
-      <ol>
-        <li>Ανεβάστε το save σας και περιγράψτε το πρόβλημα.</li>
-        <li>Επικοινωνήστε μαζί μας αν θέλετε να προσθέσετε λεπτομέρειες.</li>
-        <li>Θα ελέγξουμε το Satsuma σας και θα το διορθώσουμε.</li>
-        <li>Θα λάβετε το ενημερωμένο save σας μέσω email ή όπου γράψατε.</li>
-      </ol>
-      <section class="buttons">
-        <a href="https://forms.gle/VDC9i5etyKtmW1cY6" target="_blank">
-          <i class="fas fa-upload"></i> Μεταφόρτωση αρχείου αποθήκευσης
-        </a>
-        <a href="https://forms.gle/aPJUzBheyWYouBsYA" target="_blank">
-          <i class="fas fa-envelope"></i> Επικοινωνήστε μαζί μας
-        </a>
- <a href="https://forms.gle/VXufLJGVjwcqHWpcA" target="_blank">
-           <i class=fas fa-comments></i>Αφήστε ένα σχόλιο</i>
-        </a>   
-      </section>
-
-      <h3>Τι επισκευάζουμε</h3>
-      <ul>
-        <li>✅ Λείπει ή είναι χαλασμένος ο κινητήρας</li>
-        <li>✅ Το αυτοκίνητο δεν ξεκινά ή δεν κινείται</li>
-        <li>✅ Πρόβλημα καλωδίωσης ή πλαισίου</li>
-        <li>❌ Δεν ανεβάζουμε τροποποιήσεις στο παιχνίδι σας. Μόνο τροποποιήσεις για το Satsuma.</li>
-        <li>✅Μπορούμε να σας δώσουμε mods που δεν ειναι διαθέσιμα σε ιστοσελίδες.</li>
-      </ul>
-
-      <h3>Συχνές ερωτήσεις</h3>
-      <p><strong>Πόσο χρόνο διαρκεί;</strong><br>Εξαρτάται. Εάν χρειάζεστε γενική επισκευή κινητήρα, θα χρειαστούν 1 έως 2 ώρες. Εάν πρόκειται για απλή επισκευή, θα χρειαστούν 20 έως 40 λεπτά.</p>
-      <p><strong>Θα χάσω την πρόοδό μου;</strong><br>Όχι. Προσπαθούμε να μην αλλάξουμε τίποτα στην αποθήκευσή σας, εκτός εάν ζητήσετε αλλαγή.</p>
-      <p><strong>Είναι οι υπηρεσίες δωρεάν;</strong><br>Ναι. Είναι απλώς κάτι που κάνουμε για να βοηθήσουμε την κοινότητα <strong>My Summer Car</strong>.</p>
-      <div class="info-tab">
-        <div style="display: flex; align-items: center; gap: 15px;">
-          <h3 style="margin: 0;">ℹ️ Περισσότερες πληροφορίες σχετικά με αυτόν τον ιστότοπο</h3>
-          <img src="https://www.overtake.gg/attachments/picx1-min-png.679036/" alt="Satsuma car" style="height: 80px; border-radius: 20px;">
-        </div>
-
-        <p>Αυτός είναι ένας ιστότοπος που δημιουργήθηκε με στόχο οι άνθρωποι πίσω από αυτό το έργο να φτιάξουν Satsumas για αυτούς. Αν δεν ξέρετε τι είναι το My Summer Car — είναι ένα παιχνίδι βασισμένο στο Unity για μηχανικούς. Είστε ένας 19χρονος το 1995, που ζει στη Φινλανδία. Ο στόχος του παιχνιδιού... είναι να υποφέρετε. Και να κατασκευάσετε ένα αυτοκίνητο ράλι. :0</p>
-
-        <p>Ο προγραμματιστής δημιούργησε το παιχνίδι με την ιδέα του πόνου και την αγάπη της Φινλανδίας για τους αγώνες ράλι στο μυαλό σας. Έχετε: δίψα, πείνα, άγχος, ούρα. Οι γονείς σας έχουν πάει σε ένα νησί που ονομάζεται Τενερίφη για διακοπές. Χωρίς εσάς. Και από το 1995, δεν υπάρχει Instagram, TikTok ή κανένα μέσο κοινωνικής δικτύωσης. Έτσι, ο μόνος τρόπος για να σκοτώσετε την ώρα σας είναι να συναρμολογήσετε το παλιό αυτοκίνητο του μπαμπά σας — ένα Datsun 100-A (που ονομάζεται Satsuma στο παιχνίδι). Από το γυμνό σασί. Ναι, θα είναι δύσκολη δουλειά, αλλά τουλάχιστον θα υπάρχει μια αίσθηση ευτυχίας ή υπερηφάνειας αν το αυτοκίνητο πάρει μπροστά.</p>
-      </div>
-    </section>
-
-    <section class="repairs">
-      <h3>🛠️ Πρόσφατες διορθώσεις (Ζωντανά 🔴)</h3>
-      <iframe src="https://docs.google.com/spreadsheets/d/149urUZSzzsN4rnyYypLEC3-IWM_Y_75JRYVtEaui6xQ" width="100%" height="400" frameborder="0" style="border-radius: 10px; overflow: hidden;"></iframe>
-           <section class="comments"
-  <h3>🗣️  Πρόφατα σχόλια</h3>
-  <iframe 
-    src="https://docs.google.com/spreadsheets/d/1531NQITD4FrXXZ1GNwV4Uzh4yW6WkRQib1-oEVN-k24/edit?usp=sharing" 
-    width="100%" 
-    height="400" 
-    frameborder="0" 
-    style="border-radius: 12px; overflow: hidden;">
-  </iframe>
+<main>
+<section class="title">
+<h2>Χρειάζεστε επισκευή;;</h2>
+<p>Ανεβάστε το αρχείο αποθήκευσης παρακάτω.</p>
 </section>
-      <h3>Γνωρίστε την ομάδα</h3>
-      <div style="display: flex; align-items: center; background: white; padding: 1rem; border-radius: 12px; max-width: 600px; margin-top: 1rem;">
-        <img src="https://www.tuned1.at/wp-content/uploads/2024/09/bmw_e38_diesel_daily_bbs_tuned1_03-1536x1025.jpg" alt="Konstantin" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
+
+<section class="info">
+<h3>Σχετικά με το PistonPals</h3>
+<p>Το PistonPals είναι ένα fan project που δημιουργήθηκε με την ιδέα των ανθρώπων πίσω από το PistonPals να βοηθήσουν τους ανθρώπους επισκευάζοντας τα Satsuma τους. Είτε το Satsuma σας είναι χαλασμένο είτε δαιμονισμένο, θα το επισκευάσουμε και θα σας βάλουμε ξανά στο δρόμο.</p>
+
+<h3>🤔Πώς λειτουργεί</h3>
+<ol>
+<li>Ανεβάστε το save σας και στη συνέχεια δώστε μας μερικές λεπτομέρειες.</li>
+<li>Επικοινωνήστε μαζί μας αν θέλετε να μας δώσετε περισσότερες λεπτομέρειες.</li>
+<li>Θα ελέγξουμε το Satsuma σας και θα το επισκευάσουμε για εσάς.</li>
+<li>Θα λάβετε το ενημερωμένο save σας μέσω email ή όπου μας έχετε στείλει μήνυμα, αν μας έχετε δώσει περισσότερες λεπτομέρειες.</li>
+</ol>
+
+<section class="buttons">
+<a href="https://forms.gle/VDC9i5etyKtmW1cY6" target="_blank">
+<i class="fas fa-upload"></i> Ανεβάστε το save
+</a>
+<a href="https://forms.gle/aPJUzBheyWYouBsYA" target="_blank">
+<i class="fas fa-envelope"></i> Επικοινωνήστε μαζί μας
+</a>
+<a href="https://forms.gle/VXufLJGVjwcqHWpcA" target="_blank">
+<i class="fas fa-comments"></i>Αφήστε ένα σχόλιο
+</a>
+</section>
+
+<h3>🛠️Τι επιδιορθώνουμε</h3>
+<ul>
+<li>✅ Λείπει ή έχει υποστεί ζημιά η μηχανή</li>
+<li>✅ Η μηχανή δεν ξεκινά ή το Satsuma δεν κινείται</li>
+<li>✅ Προβλήματα καλωδίωσης ή συναρμολόγησης</li>
+<li>❌ Δεν εγκαθιστούμε τροποποιήσεις παιχνιδιών για εσάς, επειδή δεν έχουμε πρόσβαση στα αρχεία του παιχνιδιού σας. Μπορούμε να ρυθμίσουμε το Satsuma σας.</li>
+<li>✅Μπορούμε να σας δώσουμε συνδέσμους mod ή zip για mods που βρίσκονται εκτός ιστοσελίδων.</li>
+</ul>
+
+<h3>Συχνές ερωτήσεις🤔 (συχνές ερωτήσεις)</h3>
+<p><strong>Πόσο χρόνο χρειάζεται;</strong><br>Εξαρτάται. Αν χρειάζεστε επισκευή κινητήρα, θα χρειαστούν 1-2 ώρες. Αν είναι εύκολη η επιδιόρθωση, θα είναι 10-40 λεπτά.</p>
+<p><strong>Θα χάσω την πρόοδό μου;</strong><br>Όχι. Θέλουμε να μην αλλάξουμε τίποτα στην αποθήκευσή σας, μόνο αν το ζητήσετε.</p>
+<p><strong>Είναι οι υπηρεσίες δωρεάν;</strong><br>Ναι. Αυτό είναι κάτι που κάνουμε απλώς για να βοηθήσουμε την κοινότητα <strong>My Summer Car</strong>.</p>
+
+<h3>ℹ️ Περισσότερες πληροφορίες</h3>
+<img src="https://www.overtake.gg/attachments/picx1-min-png.679036/" alt="Satsuma car" style="height: 80px; border-radius: 20px;">
+<p>Αυτός είναι ένας ιστότοπος που δημιουργήθηκε για να επικοινωνούν οι χρήστες με άλλους για να επισκευάσουν τα Satsuma τους. Αν δεν ξέρετε τι είναι το My Summer Car, είναι ένα παιχνίδι βασισμένο στο Unity, για μηχανικούς. Είστε 19 ετών και ζείτε στη Φινλανδία.
+
+Ο σκοπός του παιχνιδιού είναι... να υποφέρετε. Και να κατασκευάσετε ένα αυτοκίνητο ράλι!
+</p>
+<p>Ο δημιουργός έφτιαξε το My Summer Car με την ιδέα του πόνου και την αγάπη της Φινλανδίας για τους αγώνες ράλι!
+
+Έχετε: δίψα, πείνα, άγχος, ούρα. Οι γονείς σας έχουν πάει διακοπές σε ένα νησί που ονομάζεται Τενερίφη.
+
+Χωρίς εσένα. Και επειδή είναι το 1995, δεν υπάρχει Instagram, TikTok ή οποιοδήποτε άλλο μέσο κοινωνικής δικτύωσης.
+Έτσι, ο μόνος τρόπος για να περάσει η ώρα είναι να φτιάξετε το παλιό αυτοκίνητο του πατέρα σας - ένα Datsun 100-A (που ονομάζεται Satsuma στα MSC). Από το γυμνό σασί.
+
+Ναι, θα είναι σκληρή δουλειά, αλλά θα υπάρχει ευτυχία ή υπερηφάνεια αν το αυτοκίνητο πάρει μπροστά.
+</p>
+</section>
+
+<section class="repairs">
+<h3>🛠️ Πρόσφατες Επισκευές (Ζωντανά 🔴)</h3>
+<iframe src="https://docs.google.com/spreadsheets/d/149urUZSzzsN4rnyYypLEC3-IWM_Y_75JRYVtEaui6xQ" width="100%" height="400" frameborder="0" style="border-radius: 10px; overflow: hidden;"></iframe>
+
+<section class="comments">
+<h3>🗣️ Πρόσφατα Σχόλια</h3>
+<iframe
+src="https://docs.google.com/spreadsheets/d/1531NQITD4FrXXZ1GNwV4Uzh4yW6WkRQib1-oEVN-k24/edit?usp=sharing"
+width="100%"
+height="400"
+frameborder="0"
+style="border-radius: 12px; overflow: hidden;">
+</iframe>
+</section>
+
+<h3>#️⃣Εγγεγραμμένοι Satsumas</h3>
+<iframe src="https://docs.google.com/spreadsheets/d/1Mfban8k4CNF2rhPxQGdjdJUVaLRtROiJr3mYxqiK6YA/edit?usp=sharing" width="100%" height="400" frameborder="0" style="border-radius: 10px; overflow: hidden;"></iframe>
+
+<h3>Γνωρίστε την Ομάδα</h3>
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; max-width: 100%; margin-top: 1rem;">
+
+<!-- Κωνσταντίνος (Αριστερά) -->
+<div style="flex: 1 1 48%; display: flex; align-items: center; background: white; padding: 1rem; border-radius: 12px; min-width: 300px;">
 <img src="https://www.tuned1.at/wp-content/uploads/2024/09/bmw_e38_diesel_daily_bbs_tuned1_03-1536x1025.jpg" alt="Κωνσταντίνος" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
 <div>
 <h4 style="margin: 0; color: black;">Κωνσταντίνος</h4>
-<p style="margin: 0; font-size: 0.9rem; color: gray;">Ιδιοκτήτης, Υπάλληλος και Εργοδότης 🛠️</p>
-<p style="font-size: 0.9rem; color: gray;">Γεια σας! Είμαι ο Konstantin, ο ιδρυτής και ιδιοκτήτης του PistonPals. Είτε το Satsuma σας είναι χαλασμένο είτε απλώς... <em>λείπει</em>, θα το επισκευάσω και θα σας ξαναβάλω στο δρόμο.</p>
+<p style="margin: 0; font-size: 0.9rem; color: gray;">Ιδιοκτήτης, ιδρυτής, προγραμματιστής ιστότοπου και εργαζόμενος 🛠️</p>
+<p style="font-size: 0.9rem; color: gray;">Γεια σας! Είμαι ο Konstantin, ο ιδιοκτήτης, ο ιδρυτής, ο εργοδότης και εργαζόμενος της Piston Pals. Είτε το Satsuma σου είναι χαλασμένο, δαιμονισμένο ή απλώς... <em>εξαφανισμένο</em>, θα το επισκευάσω και θα σε ξαναβάλω στους δρόμους!</p>
 </div>
 </div>
-    </section>
-    
-<div style="display: flex; align-items: center; background: white; padding: 1rem; border-radius: 12px; max-width: 600px; margin-top: 1rem;">
-<img src="https://images.carid.com/inspiration/audi/s7/45/1.jpg" alt="Denis" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
+
+<!-- Ντένις (Δεξιά) -->
+<div style="flex: 1 1 48%; display: flex; align-items: center; background: white; padding: 1rem; border-radius: 12px; min-width: 300px;">
+<img src="https://images.carid.com/inspiration/audi/s7/45/1.jpg" alt="Ντένις" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
 <div>
 <h4 style="margin: 0; color: black;">Ντένις</h4>
-<p style="margin: 0; font-size: 0.9rem; color: gray;">Συνιδιοκτήτης και συνάδελφος 🛠️</p>
-<p style="font-size: 0.9rem; color: gray;">Γεια σας! Είμαι ο Ντένις, συνιδιοκτήτης του PistonPals. Ο Κονσταντίν και εγώ είμαστε αφοσιωμένοι στο να διατηρούμε το Satsuma σας σε άριστη κατάσταση.
-Είτε το Satsuma σας χρειάζεται επισκευή, αποκατάσταση ή εξειδικευμένη φροντίδα, απλώς στείλτε μας την περιγραφή σας και θα το κάνουμε πραγματικότητα.</p>
+<p style="margin: 0; font-size: 0.9rem; color: gray;">Συνιδιοκτήτης, συνιδρυτής και συνεργάτης 🛠️</p>
+<p style="font-size: 0.9rem; color: gray;">Γεια σας! Είμαι ο Denis, ο συνιδιοκτήτης και συνιδρυτής του PistonPals. Εγώ και ο Konstantin είμαστε αφοσιωμένοι στο να διατηρούμε το Satsuma σας σε άριστη λειτουργία.
+Είτε το Satsuma σας χρειάζεται επισκευές, αποκατάσταση ή εξειδικευμένη φροντίδα, απλώς στείλτε μας την αποθήκευσή σας από το κουμπί και θα το κάνουμε.</p>
 </div>
 </div>
-    
-  </main>
+</div>
+</div>
+</section>
+</main>
 
-  <footer>
-    <p>&copy; Piston Pals 2025. Δεν συνδέεται με την Amistech Games.</p>
-  </footer>
+<footer>
+<p>&copy; Piston Pals 2025. Δεν συνδεόμαστε καθόλου με την Amistech Games.</p>
+</footer>
 </body>
 </html>
-
-
-
